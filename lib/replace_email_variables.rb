@@ -154,6 +154,9 @@ module ReplaceEmailVariables
   def build_submitter_link(submitter, tracking_event_type)
     url_options = build_url_options_for(submitter, is_email: tracking_event_type == 'click_email')
 
+    # Fork addition: force the signing-form language in emailed links (e.g. SIGNER_LANG=el)
+    url_options = url_options.merge(lang: ENV['SIGNER_LANG']) if ENV['SIGNER_LANG'].present?
+
     if tracking_event_type == 'click_email'
       Rails.application.routes.url_helpers.submit_form_url(
         slug: submitter.slug,
