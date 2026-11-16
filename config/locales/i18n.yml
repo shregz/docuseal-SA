@@ -20,6 +20,7 @@ en: &en
   language_ar: العربية
   language_ko: 한국어
   language_ja: 日本語
+  language_el: Ελληνικά
   add_from_google_drive: Add from Google Drive
   or_add_from: Or add from
   upload_a_new_document: Upload a New Document
@@ -9014,6 +9015,148 @@ ja:
   please_contact_the_requester_to_specify_your_email_for_two_factor_authentication: 2段階認証用にメールアドレスを指定するために、送信者にお問い合わせください。
   rate_limit_exceeded: レート制限を超えました
   too_many_requests_try_again_later: リクエストが多すぎます。後でもう一度お試しください。
+
+el:
+  date:
+    month_names:
+      -
+      - Ιανουαρίου
+      - Φεβρουαρίου
+      - Μαρτίου
+      - Απριλίου
+      - Μαΐου
+      - Ιουνίου
+      - Ιουλίου
+      - Αυγούστου
+      - Σεπτεμβρίου
+      - Οκτωβρίου
+      - Νοεμβρίου
+      - Δεκεμβρίου
+    abbr_month_names:
+      -
+      - Ιαν
+      - Φεβ
+      - Μαρ
+      - Απρ
+      - Μαΐ
+      - Ιουν
+      - Ιουλ
+      - Αυγ
+      - Σεπ
+      - Οκτ
+      - Νοε
+      - Δεκ
+    formats:
+      default: "%d/%m/%Y"
+      short: "%-d %b"
+      long: "%-d %B %Y"
+  time:
+    formats:
+      short: "%-d/%-m %H:%M"
+      long: "%-d %B %Y, %H:%M"
+      detailed: "%-d %B %Y, %H:%M:%S"
+  require_phone_2fa_to_open: Απαίτηση επαλήθευσης μέσω τηλεφώνου (2FA) για άνοιγμα
+  the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_html: Ο αποστολέας ζήτησε έλεγχο ταυτότητας δύο παραγόντων με κωδικό μίας χρήσης που στάλθηκε στον αριθμό τηλεφώνου σας <b>%{phone}</b>.
+  send_verification_code: Αποστολή κωδικού επαλήθευσης
+  code_has_been_resent: Ο κωδικός στάλθηκε ξανά
+  invalid_code: Μη έγκυρος κωδικός
+  awaiting_completion_by_the_other_party: "Αναμονή ολοκλήρωσης από το άλλο μέρος"
+  view: Προβολή
+  hi_there: Γεια σας,
+  download: Λήψη
+  page: Σελίδα
+  decline: Απόρριψη
+  delegate: Ανάθεση
+  enter_the_email_address_of_the_person_you_want_to_delegate_to: Εισαγάγετε τη διεύθυνση email του προσώπου στο οποίο θέλετε να αναθέσετε την υπογραφή
+  declined: Απορρίφθηκε
+  decline_reason: Αιτιολογία απόρριψης
+  provide_a_reason: Αναφέρετε αιτιολογία
+  notify_the_sender_with_the_reason_you_declined: Ενημερώστε τον αποστολέα για την αιτιολογία της απόρριψης
+  form_has_been_declined_on_html: 'Η φόρμα απορρίφθηκε στις <span class="font-semibold">%{time}</span>'
+  document_has_been_delegated_on_html: 'Το έγγραφο ανατέθηκε στις <span class="font-semibold">%{time}</span>'
+  name_declined_by_submitter: 'Το "%{name}" απορρίφθηκε από %{submitter}'
+  name_declined_by_submitter_with_the_following_reason: 'Το "%{name}" απορρίφθηκε από %{submitter} με την εξής αιτιολογία:'
+  email: Email
+  digitally_signed_by: Υπογράφηκε ψηφιακά από
+  verification_code_code: 'Κωδικός επαλήθευσης: %{code}'
+  role: Ρόλος
+  provide_your_email_to_start: Εισαγάγετε το email σας για να ξεκινήσετε
+  provide_your_email: Εισαγάγετε το email σας
+  provide_your_name_to_start: Εισαγάγετε το όνομά σας για να ξεκινήσετε
+  provide_your_name: Εισαγάγετε το όνομά σας
+  provide_your_phone_in_international_format_to_start: Εισαγάγετε το τηλέφωνό σας σε διεθνή μορφή για να ξεκινήσετε
+  provide_your_phone_in_international_format: Εισαγάγετε το τηλέφωνό σας σε διεθνή μορφή
+  use_international_format_1xxx_: 'Χρησιμοποιήστε διεθνή μορφή: +30xxx...'
+  reason: Αιτιολογία
+  form_expired_at_html: 'Η φόρμα έληξε στις <span class="font-semibold">%{time}</span>'
+  start: Έναρξη
+  starting: Έναρξη...
+  form_has_been_deleted_by_html: 'Η φόρμα διαγράφηκε από <span class="font-semibold">%{name}</span>.'
+  invited_by_html: 'Πρόσκληση από <span class="font-semibold">%{name}</span>'
+  you_have_been_invited_to_submit_a_form: Έχετε προσκληθεί να υποβάλετε μια φόρμα
+  signed_on_time: 'Υπογράφηκε στις %{time}'
+  completed_on_time: 'Ολοκληρώθηκε στις %{time}'
+  document_has_been_signed_already: 'Το έγγραφο έχει ήδη υπογραφεί'
+  form_has_been_submitted_already: Η φόρμα έχει ήδη υποβληθεί
+  re_send_email: Επαναποστολή email
+  send_copy_to_email: Αποστολή αντιγράφου στο email
+  sending: Αποστολή
+  resubmit: Νέα υποβολή
+  or: ή
+  download_documents: Λήψη εγγράφων
+  downloading: Λήψη
+  completed_successfully: Ολοκληρώθηκε με επιτυχία
+  password: Κωδικός πρόσβασης
+  sign_in: Σύνδεση
+  signing_in: Σύνδεση...
+  sign_in_with_microsoft: Σύνδεση με Microsoft
+  sign_in_with_google: Σύνδεση με Google
+  forgot_your_password_: Ξεχάσατε τον κωδικό σας;
+  create_free_account: Δημιουργία δωρεάν λογαριασμού
+  already_have_an_account: Έχετε ήδη λογαριασμό;
+  first_name: Όνομα
+  last_name: Επώνυμο
+  sign_up: Εγγραφή
+  signing_up: Εγγραφή...
+  profile_details: Στοιχεία προφίλ
+  sign_up_with_google: Εγγραφή με Google
+  sign_up_with_microsoft: Εγγραφή με Microsoft
+  redirecting_to_provider: Ανακατεύθυνση στο %{provider}...
+  by_creating_an_account_you_agree_to_our_html: 'Δημιουργώντας λογαριασμό, αποδέχεστε την <a target="_blank" href="https://www.docuseal.com/privacy">Πολιτική απορρήτου</a> και τους <a target="_blank" href="https://www.docuseal.com/terms">Όρους χρήσης</a>.'
+  enter_email_to_continue: Εισαγάγετε το email σας για να συνεχίσετε
+  the_code_has_been_sent_to_your_email: Ο κωδικός στάλθηκε στο email σας.
+  enter_the_verification_code_from_your_email: Εισαγάγετε τον κωδικό επαλήθευσης από το email σας.
+  too_many_attempts: Πάρα πολλές προσπάθειες.
+  verification_email_bounced: "Δεν ήταν δυνατή η αποστολή του κωδικού επαλήθευσης: το email σε αυτή τη διεύθυνση επιστράφηκε."
+  back: Πίσω
+  verification_code: Κωδικός επαλήθευσης
+  resend_code: Επαναποστολή κωδικού
+  powered_by: 'Με την υποστήριξη του'
+  count_documents_signed_with_html: '<b>%{count}</b> έγγραφα υπογράφηκαν με'
+  open_source_documents_software: 'λογισμικό εγγράφων ανοιχτού κώδικα'
+  eu_data_residency: 'Αποθήκευση δεδομένων στην ΕΕ'
+  please_enter_your_email_address_associated_with_the_completed_submission: Εισαγάγετε τη διεύθυνση email που σχετίζεται με την ολοκληρωμένη υποβολή.
+  privacy_policy: Πολιτική απορρήτου
+  esignature_disclosure: Δήλωση ηλεκτρονικής υπογραφής
+  select_data_residency: Επιλέξτε τοποθεσία αποθήκευσης δεδομένων
+  company_name: Επωνυμία εταιρείας
+  optional: προαιρετικό
+  submit: Υποβολή
+  sms_rate_limit_exceeded: Υπέρβαση ορίου SMS
+  invalid_phone_number: Μη έγκυρος αριθμός τηλεφώνου
+  please_contact_the_requester_to_specify_your_phone_number_for_two_factor_authentication: Επικοινωνήστε με τον αποστολέα για να καταχωρίσει τον αριθμό τηλεφώνου σας για τον έλεγχο ταυτότητας δύο παραγόντων.
+  we_sent_a_one_time_verification_code_to_your_email_address_please_enter_the_code_below_to_continue: Στείλαμε έναν κωδικό επαλήθευσης μίας χρήσης στο email σας. Εισαγάγετε τον παρακάτω για να συνεχίσετε.
+  re_send_code: Επαναποστολή κωδικού
+  email_verification: Επαλήθευση email
+  your_verification_code_to_access_the_name: 'Ο κωδικός επαλήθευσης για πρόσβαση στο "%{name}":'
+  please_reply_to_this_email_if_you_didnt_request_this: Απαντήστε σε αυτό το email αν δεν το ζητήσατε εσείς.
+  your_user_account_has_been_archived_contact_your_administrator_to_restore_access_to_your_account: Ο λογαριασμός χρήστη σας έχει αρχειοθετηθεί. Επικοινωνήστε με τον διαχειριστή σας για να αποκαταστήσει την πρόσβαση.
+  your_email_could_not_be_reached_this_may_happen_if_there_was_a_typo_in_your_address_or_if_your_mailbox_is_not_available_please_contact_support_email_to_log_in: Δεν ήταν δυνατή η παράδοση μηνύματος στο email σας. Αυτό μπορεί να συμβεί αν υπάρχει λάθος στη διεύθυνση ή αν το γραμματοκιβώτιό σας δεν είναι διαθέσιμο. Για να συνδεθείτε, επικοινωνήστε με το support@docuseal.com.
+  verification_required_refresh_the_page_and_pass_2fa: Απαιτείται επαλήθευση. Ανανεώστε τη σελίδα και ολοκληρώστε τον έλεγχο ταυτότητας δύο παραγόντων.
+  the_sender_has_requested_a_two_factor_authentication_via_one_time_password_sent_to_your_email_html: Ο αποστολέας ζήτησε έλεγχο ταυτότητας δύο παραγόντων με κωδικό μίας χρήσης που στάλθηκε στη διεύθυνση email σας <b>%{email}</b>.
+  please_contact_the_requester_to_specify_your_email_for_two_factor_authentication: Επικοινωνήστε με τον αποστολέα για να καταχωρίσει το email σας για τον έλεγχο ταυτότητας δύο παραγόντων.
+  rate_limit_exceeded: Υπέρβαση ορίου
+  too_many_requests_try_again_later: Πάρα πολλά αιτήματα. Δοκιμάστε ξανά αργότερα.
 
 en-US:
   <<: *en
